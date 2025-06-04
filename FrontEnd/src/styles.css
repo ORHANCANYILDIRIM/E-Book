@@ -1,0 +1,44 @@
+/* Genel buton stilleri */
+.button, .registerButton {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Kullanıcı Girişi butonu */
+  .button {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  /* Kayıt Ol butonu */
+  .registerButton {
+    background-color: #FF9800;
+    color: white;
+  }
+  
+  /* Hover efektleri */
+  .button:hover {
+    background-color: #45a049; /* Yeşil hover */
+  }
+  
+  .registerButton:hover {
+    background-color: #e68900; /* Turuncu hover */
+  }
+  
+  /* Footer stilleri */
+  .footer {
+    margin-top: 60px;
+    color: #888;
+    font-size: 14px;
+  }
+  
+  .footerText {
+    font-style: italic;
+  }
+  

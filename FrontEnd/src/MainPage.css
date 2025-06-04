@@ -1,0 +1,110 @@
+/* App.css veya MainPage.css içinde en sona ekle */
+.search-container {
+  position: relative;
+  max-width: 500px;
+}
+
+.search-input {
+  padding: 8px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #050505;
+  font-size: 14px;
+}
+
+.search-dropdown {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.search-item {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  text-decoration: none;
+  color: #040404;
+}
+
+.search-item:hover {
+  background-color: #f5f5f5;
+}
+
+.ad-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;           /* ✅ dış boşluk sıfırlandı */
+  padding: 0;          /* ✅ iç boşluk sıfırlandı */
+  background: none;    /* ✅ arka plan kalktı */
+  border-radius: 0;    /* ✅ köşe yuvarlama kalktı */
+  box-shadow: none;    /* ✅ gölge kalktı */
+}
+
+.banner-img {
+  width: 80%;          /* ✅ tam sayfa genişlik */
+  max-width: 100%;      /* ✅ taşma önlenir */
+  height: auto;
+  display: block;
+  border-radius: 0;
+  object-fit: cover;
+  margin-top: 30px;
+}
+
+.popular-section {
+  margin: 40px 0;
+  padding: 0 20px;
+  margin-top: 100px;
+}
+
+.popular-section h2 {
+  margin-bottom: 15px;
+  font-size: 22px;
+  color: #4e342e;
+}
+
+.popular-scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  scroll-behavior: smooth;
+  padding-bottom: 10px;
+}
+
+.popular-card {
+  flex: 0 0 auto;
+  width: 180px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 10px;
+  text-align: center;
+}
+
+.popular-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.btn-view {
+  background-color: #6f4f1f;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin-top: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
